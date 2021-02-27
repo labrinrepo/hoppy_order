@@ -21706,28 +21706,51 @@ footer .appLinks li a {
 
 /* ------------------------------------------------- Total Orders Start --------------------------------------------------- */
 
-#balance .description-info .remove-btn {
+#balance .remove-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+#balance .order-form-container.added-2,
+#balance .order-form-container.added-3,
+#balance .order-form-container.added-4,
+#balance .order-form-container.added-5,
+#balance .order-form-container.added-6,
+#balance .order-form-container.added-7,
+#balance .order-form-container.added-8,
+#balance .order-form-container.added-9,
+#balance .order-form-container.added-10 {
+  display: none;
+}
+
+#balance .remove-btn-container .remove-btn {
   padding: 8px 10px;
   background: #EB7623;
   color: #fff;
 }
 
-#balance .description-info .remove-btn:hover {
+#balance .descriptionAdd .description-info h5 {
+  margin-left: 130px;
+}
+
+#balance .remove-btn-container .remove-btn:hover {
   filter: saturate(1.3);
 }
 
-#balance .btnOrder .btn-add-link {
+#balance .description-info  .btn-add-link {
   border-radius: 4px;
-  padding: 10px 15px;
-  color: #7a7a7a;
-  border: 1px solid #a7a7a7;
-  background-color: #fff;
-}
-
-#balance .btnOrder .btn-add-link:hover {
+  padding: 5px 15px;
   border: 1px solid transparent;
   background-color: #7a7a7a;
   color: #fff;
+}
+
+#balance .description-info .btn-add-link:hover {
+  color: #7a7a7a;
+  border: 1px solid #a7a7a7;
+  background-color: #fff;
 }
 
 /* ------------------------------------------------- Total Orders End --------------------------------------------------- */
